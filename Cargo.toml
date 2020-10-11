@@ -8,9 +8,6 @@ edition = "2018"
 
 [dependencies]
 pocket = { git = "https://github.com/ozbe/rust-pocket.git" }
-# pocket = { path = "../rust-pocket" }
-# tera = "1.5.0"
-# lazy_static = "1.0"
 config = "0.10.1"
 shellexpand = "2.0.0"
 serde = { version = "1.0", features = ["derive"] }
@@ -20,7 +17,4 @@ chrono = "0.4.15"
 clap = "2.33.3"
 tokio = { version = "0.2.22", features = ["macros"] }
 url = "1"
-github_starchaser = { path = "../github-starchaser" }
-# github-rs = { version = "0.7", features= ["rust-native-tls"] }
 github-rs = "0.7"
-# github_v3= "0.3.2"
